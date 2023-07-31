@@ -1,10 +1,16 @@
+type Customer = {
+    birthday: Date
+}
 
-let age:number = 11215;
-// this is a typescript file
+function getCustomer(id:number):Customer|null|undefined{ 
+    return id === 0 ? null : {birthday: new Date()};
+}
 
-let game:string = "Rahul";
+let customer = getCustomer(0);
 
+// if(customer!==null && customer!==undefined)
+// console.log(customer.birthday);
 
-console.log(game);
-console.log("hey how you doingg...")
-console.log(age);
+console.log(customer?.birthday)
+
+// wt if customer is undefined 
