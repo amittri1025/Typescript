@@ -6,10 +6,11 @@
 
 
 ## Compile Time vs Runtime
-Compile time: code -> m/c code
-two errors occus : semantic (meaning less code) and syntax (wrong structure)
 
-runtime : exec of program (usually after compile time)
+#### Compile time: code -> m/c code
+Two errors occurs : Semantic (meaning less code) and Syntax (wrong structure)
+
+#### Runtime : exec of program (usually after compile time)
 
 ## Static Vs Dynamically Typed
 ### Static 
@@ -27,3 +28,6 @@ the type of variable is decided later at runtime (ofc when program is compiled e
 ## To Install Typescript
 
 ``` sudo npm install Typescript```
+
+## To config Ts File 
+```tsc --init```
